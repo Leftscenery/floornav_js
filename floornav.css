@@ -2,6 +2,7 @@ html,body{
     height: 100%;
     font-family: 'Roboto';
 }
+/*Back to top Button Style*/
 .floorNavBtn{
     position: fixed;
     bottom: 50px;
@@ -15,18 +16,23 @@ html,body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: rgba(200,200,200,0.5);
+    background-color: rgba(200,200,200,0.2);
     color: #ffffff;
     display: block;
     opacity: 0;
     transition: all 0.2s;
 }
+.floorNavBtn:hover{
+    background-color: rgba(200,200,200,0.35)
+}
+
+/*Floor Navigation Background Style*/
 .floorNavMap{
     position: fixed;
     border-radius: 25px;
     height:0;
     width: 40px;
-    background-color: rgba(200,200,200,0.3);
+    background-color: rgba(200,200,200,0.1);
     bottom: 120px;
     right:55px;
     display: flex;
@@ -34,6 +40,8 @@ html,body{
     justify-content: center;
     transition: all 1s;
 }
+
+/*Floor Navigation Dots Style*/
 .floorNavMark{
     margin: 12px 15px;
     border-radius: 10px;
@@ -41,7 +49,7 @@ html,body{
     width: 10px;
     vertical-align: middle;
     background-color: #fff;
-    opacity: 0.2;
+    opacity: 0.1;
     transition: all 0.5s;
 }
 .floorNavMark:hover{
