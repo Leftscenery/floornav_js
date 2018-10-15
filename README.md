@@ -1,10 +1,10 @@
 
 floornav_js
 ---
-#### Introduction:
-Quick back to top and floor map navigation, custom style supported.
 
 <br/>
+
+Quick back to top and floor map navigation, custom style supported.
 
 ---
 
