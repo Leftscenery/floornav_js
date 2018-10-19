@@ -7,7 +7,7 @@
  * @ doc: https://github.com/Leftscenery/lazyimg_js/blob/master/README.md
  */
 
-let NavigationSystem = (function navigationSystem() {
+let NavigationSystem = (function navigationSystem(window) {
     let btn = null;
     let winH = document.documentElement.clientHeight;
     let floorMark = null;
@@ -124,4 +124,4 @@ let NavigationSystem = (function navigationSystem() {
             loadScrollEvent();
         },
     }
-})();
+})((typeof(module) !== "undefined" && module.exports && typeof(global) !== "undefined") ? global : this || window);
